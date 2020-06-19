@@ -1,0 +1,32 @@
+@charset "utf-8";
+@import "~bulma/bulma";
+@import "~fullpage.js/dist/fullpage";
+
+.section {
+  padding: 0;
+
+  .slider1 {
+    background: url(../images/p1.jpeg) center / cover
+  }
+
+  .slider2 {
+    background: url(../images/p2.jpeg) center / cover
+  }
+
+  .slider3 {
+    background: url(../images/p3.jpeg) center / cover
+  }
+
+  .fp-controlArrow {
+    display: none;
+  }
+
+  .fp-slidesNav ul {
+    text-align: center;
+
+    span {
+      background-color: #fff;
+    }
+  }
+
+}
